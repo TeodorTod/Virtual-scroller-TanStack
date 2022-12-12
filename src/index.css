@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+body {
+  padding: 1rem;
+
+}
+
+.List {
+  border: 1px solid black;
+  max-width: 100%;
+}
+
+.ListItemEven,
+.ListItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ListItemEven {
+  background-color: #e6e4dc;
+}
+
+button {
+  border: 1px solid black;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.user {
+  display: flex;
+  justify-content:right;
+}
+
+.image {
+  width: 100%;
+  object-fit:cover;
+  max-height: 460px;
+}
+
+.random {
+  margin: 0 5px 15px 5px;
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "tanstack-react-virtual-example-smooth-scroll",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview --port 3001",
+    "start": "vite"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.17",
+    "@tanstack/react-virtual": "3.0.0-beta.30",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^4.0.0",
+    "@types/node": "^18.11.12",
+    "@vitejs/plugin-react": "^1.2.0",
+    "vite": "^2.8.6"
+  }
+}
